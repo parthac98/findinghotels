@@ -1,4 +1,4 @@
-# findinghotels
+# Findinghotels
 Finding Hotels
 
 Author : Partha Das
