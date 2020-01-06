@@ -5,7 +5,7 @@ Author : Partha Das
 
 Please follow the below mentioned instructions to clone and run the application
 
-prerequisite
+Prerequisite
 ----------------
 1. Node is installed (globally)
 
