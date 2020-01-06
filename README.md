@@ -34,3 +34,11 @@ API and map services
 ----------------
 1. Used API provided by 'https://developer.here.com/'
 2. Used map servises provided by 'https://developer.here.com/'
+
+Future Scope
+----------------
+1. Add more animation (CSS 3 and/or JQuery)
+2. Add specific location to find
+3. Add road direction
+4. Add treaffic information
+5. Add more information about the hotel like timing, status, opening information etc
