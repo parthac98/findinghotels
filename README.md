@@ -20,3 +20,17 @@ Run application
 ----------------
 1. Run the command in terminal 'node server.js'
 2. Open a browser (Google Chrome) and use te URL 'http://localhost:3000' to access the application
+
+Languages used for the development
+----------------
+1. Node JS
+2. Angulas JS 1.2
+3. HTML
+4. CSS
+5. CSS 3
+5. JavaScript
+
+API and map services
+----------------
+1. Used API provided by 'https://developer.here.com/'
+2. Used map servises provided by 'https://developer.here.com/'
