@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <title>Find your hotels</title>
+</head>
+
+<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../app/scripts/app.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="../app/styles/style.css">
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <!-- Left side listing section -->
+    <div class="leftPanel">
+        <div class="innerHotelInfoDiv" ng-repeat="hotel in myHotelData" ng-click="showHotelLocation(hotel.position[0], hotel.position[1])">
+            <img src="{{ hotel.icon }}" class="hotelIcon">
+            <div class="hotelTitel" title="{{hotel.title}}">
+                {{ hotel.title }}
+            </div>
+            <div class="clearFloating">
+                Rating : {{ hotel.averageRating }}
+                <br/>
+                Address : {{ hotel.vicinity }}
+            </div>
+        </div>
+    </div>
+
+    <!-- Right side listing section -->
+    <div class="rightPanel" id="mapContainer"></div>
+</div>
+
+<!-- Map Section -->
+<script type="text/javascript" charset="utf-8" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+<script type="text/javascript" charset="utf-8" src="../app/scripts/map.js"></script>
+<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+</body>
+</html>

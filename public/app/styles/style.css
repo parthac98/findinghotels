@@ -1,0 +1,63 @@
+body {
+    font-family: 'Varela', sans-serif;
+}
+
+.leftPanel {
+    float: left;
+    width: 20%;
+    height: 700px;
+    border: 2px solid #fcfcfc;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+    overflow:scroll; 
+}
+
+.rightPanel {
+    float: left;
+    width: 75%;
+    height: 700px;
+    border: 2px solid #fcfcfc;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+}
+
+.innerHotelInfoDiv {
+    width: 97%;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 2px 2px 8px 2px;
+    cursor: grab;
+    color: #5f5f5f;
+    font-size: 14px;
+    background: #fcfcfc;
+}
+
+.innerHotelInfoDiv:hover {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    transform: scale(1, 1);
+    margin-left: 4px;
+}
+
+.hotelIcon {
+   float:left; 
+   height:40px;
+   width:40px;
+} 
+
+.hotelTitel {
+    float:left;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    margin: 8px 0px 0px 0px;
+}
+
+.clearFloating {
+    padding: 8px 0px 0px 0px;
+    clear: both;
+}
